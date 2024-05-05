@@ -7,7 +7,17 @@ const initialProjects=[
         git: "https://github.com/heritsilavo/stage_l2",
         link: "",
         etat: "en cours",
-    }
+    },
+    {
+        title: "Jeu de memoire",
+        societe: "Projet presonel",
+        role: "Creer l'application entiere",
+        description: "Le jeu de mémoire, également connu sous le nom de “Memory Game”, est un jeu de réflexion addictif qui vous permet de vous amuser tout en entraînant votre mémoire visuelle. Dans ce jeu, vous êtes confronté à un champ de cartes avec des lettres, des chiffres et des figures. Les cartes sont mélangées et retournées face cachée. Lorsque vous cliquez sur deux cartes identiques, elles restent visibles. Votre objectif est de retourner toutes les cartes aussi rapidement que possible. 🃏🧠",
+        git: "https://gitlab.com/heritsilavo4835/jeu_de_memoire",
+        link: "https://jeu-de-memoire.vercel.app/",
+        etat: "en cours",
+    },
+
 ]
 
 export const useShowNav = () => useState<boolean>('showNav', () => true)
